@@ -1,0 +1,29 @@
+body {
+    background-color: #fffbe6;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/* 画像を横に並べる親要素 */
+.gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* 必要に応じて折り返す */
+}
+
+/* 画像とキャプションをまとめるボックス */
+.photo {
+    text-align: center;
+}
+
+/* 画像サイズ調整 */
+.photo img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
